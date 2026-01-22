@@ -34,6 +34,11 @@ Hi, I'm Abu, a computer programmer and full-stack web developer. I specialize in
 
 ### Computer Science Fundamentals
 - Data Structures and Algorithms (DSA)
+  - Arrays, Strings, Linked Lists
+  - Stacks, Queues
+  - Trees, Hash Tables
+  - Basic Sorting & Searching
+
 
 ## About This Repository
 This repository contains my web and mobile application projects and demonstrates my understanding of full-stack and frontend development concepts, problem-solving skills, and continuous learning mindset.
