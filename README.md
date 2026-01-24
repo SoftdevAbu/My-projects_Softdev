@@ -12,7 +12,7 @@ Hi, I'm Abu, a computer programmer and full-stack web developer. I specialize in
 - Backend: Node.js, Express.js
 - APIs: RESTful APIs
 - Databases: SQL, MongoDB
-- Authentication & Authorization (Basics)
+- Authentication & Authorization
 - Version Control: Git & GitHub
 
 ### Frontend Development
@@ -37,7 +37,7 @@ Hi, I'm Abu, a computer programmer and full-stack web developer. I specialize in
   - Arrays, Strings, Linked Lists
   - Stacks, Queues
   - Trees, Hash Tables
-  - Basic Sorting & Searching
+  - Sorting & Searching
 
 
 ## About This Repository
