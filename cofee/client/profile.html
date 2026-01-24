@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<script>
+  if (!localStorage.getItem("token")) {
+    window.location.href = "login.html";
+  }
+</script>
+
+<nav>
+  <div class="brand">
+    <a href="index.html">Maple Store</a>
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="profile.html" id="profileLink">Profile</a>
+    <a href="#" id="logoutLink">Logout</a>
+  </div>
+</nav>
+
+<h2>Your Profile</h2>
+<div id="points"></div>
+<div id="orders"></div>
+
+<script src="js/profile.js"></script>
+<script src="js/navbar.js"></script>
+
+</body>
+</html>

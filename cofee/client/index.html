@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maple Coffee</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR (UNCHANGED) -->
+<nav>
+  <div class="brand">
+    <a href="index.html">Maple Store</a>
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="coffee.html">Coffee</a>
+    <a href="bakery.html">Bakery</a>
+    <a href="lunch.html">Lunch</a>
+    <a href="dinner.html">Dinner</a>
+    <a href="birthday.html">Birthday</a>
+    <a href="cart.html">Cart</a>
+
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </div>
+</nav>
+
+<!-- INDEX-ONLY STYLES -->
+<style>
+  .home-hero {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .home-hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+
+  .home-hero h2 {
+    font-size: 1.2rem;
+    color: #ffcc80;
+    font-weight: 400;
+  }
+
+  .home-slider {
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+  }
+
+  .home-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .home-slide.active {
+    opacity: 1;
+  }
+
+  .home-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .home-subscribe {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .home-subscribe input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 220px;
+  }
+
+  .home-subscribe button {
+    padding: 8px 14px;
+    margin-left: 6px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffcc80;
+    cursor: pointer;
+  }
+
+  .home-footer {
+    background-color: #3e2723;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .home-footer-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .home-footer-grid div {
+    max-width: 260px;
+    margin: 10px;
+  }
+
+  .home-footer h4 {
+    color: #ffcc80;
+    margin-bottom: 6px;
+  }
+</style>
+
+<!-- HERO -->
+<section class="home-hero">
+  <h1>Welcome to Maple Coffee</h1>
+  <h2>Your mornings get better with the best coffee in town</h2>
+</section>
+
+<!-- SLIDER -->
+<div class="home-slider">
+  <div class="home-slide active">
+    <img src="https://www.cakesify.com/wp-content/uploads/2024/04/donuts-marketing.jpg">
+  </div>
+
+  <div class="home-slide">
+    <img src="https://img.freepik.com/premium-photo/delicious-hot-drink-topped-with-whipped-cream-nuts-wooden-table_1082141-73380.jpg">
+  </div>
+
+  <div class="home-slide">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/030/353/936/small/grilled-salmon-steaks-with-asparagus-ai-generated-free-photo.jpg">
+  </div>
+
+  <div class="home-slide">
+    <img src="https://www.supermarketperimeter.com/ext/resources/2025/09/18/richs-2.webp?height=667&width=1080">
+  </div>
+</div>
+
+<!-- SUBSCRIBE -->
+<section class="home-subscribe">
+  <h3>New Coffee in Town & Occasion Specials</h3>
+  <p>Subscribe for exclusive updates</p>
+  <input type="email" placeholder="Enter your email">
+  <button>Subscribe</button>
+</section>
+
+<!-- FOOTER -->
+<footer class="home-footer">
+  <div class="home-footer-grid">
+    <div>
+      <h4>About Us</h4>
+      <p>Fresh coffee, bakery items, meals & celebration cakes.</p>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Email: support@maplecoffee.com</p>
+      <p>Phone: +1 123 456 7890</p>
+    </div>
+  </div>
+
+  <p>© 2026 Maple Coffee. All rights reserved.</p>
+</footer>
+
+<!-- SLIDER SCRIPT -->
+<script>
+  const slides = document.querySelectorAll(".home-slide");
+  let current = 0;
+
+  setInterval(() => {
+    slides[current].classList.remove("active");
+    current = (current + 1) % slides.length;
+    slides[current].classList.add("active");
+  }, 10000);
+</script>
+
+</body>
+</html>

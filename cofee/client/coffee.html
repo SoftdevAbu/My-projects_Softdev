@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="brand">
+    <a href="index.html">Maple Store</a>
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="coffee.html">Coffee</a>
+    <a href="bakery.html">Bakery</a>
+    <a href="lunch.html">Lunch</a>
+    <a href="dinner.html">Dinner</a>
+    <a href="birthday.html">Birthday</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html" id="loginLink">Login</a>
+    <a href="register.html" id="registerLink">Register</a>
+    <a href="profile.html" id="profileLink" style="display:none;">Profile</a>
+    <a href="#" id="logoutLink" style="display:none;">Logout</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h2>Coffee</h2>
+  <div class="products" id="products"></div>
+</div>
+
+<script>
+  const CATEGORY = "coffee";
+  console.log("CATEGORY SENT:", CATEGORY);
+</script>
+
+<script src="js/category.js"></script>
+<script src="js/navbar.js"></script>
+
+</body>
+</html>
