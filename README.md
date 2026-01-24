@@ -41,6 +41,6 @@ Hi, I'm Abu, a computer programmer and full-stack web developer. I specialize in
 
 
 ## About This Repository
-This repository contains my web and mobile application projects and demonstrates my understanding of full-stack and frontend development concepts, problem-solving skills, and continuous learning mindset.
+This repository contains my web a application projects and demonstrates my understanding of full-stack and frontend development concepts, problem-solving skills, and continuous learning mindset.
 
 I regularly update this repository with new projects as I explore new ideas and strengthen my technical foundation.
