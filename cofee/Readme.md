@@ -1,3 +1,12 @@
+##Here is the demo video
+
+
+
+
+https://github.com/user-attachments/assets/d2199802-eb32-40f2-bfdd-b6f00c2ca269
+
+
+
 # Coffee & Bakery Store Web Application
 
 ## Overview
