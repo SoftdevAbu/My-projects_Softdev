@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://my-projects-softdev.onrender.com/api/auth";
 
 /* REGISTER */
 const registerForm = document.getElementById("registerForm");

@@ -31,7 +31,7 @@ function addToCart(product) {
 }
 
 // Fetch products by category
-fetch(`http://localhost:5000/api/products?category=${CATEGORY}`)
+fetch(`https://my-projects-softdev.onrender.com/api/products?category=${CATEGORY}`)
   .then(res => res.json())
   .then(products => {
     if (!products.length) {

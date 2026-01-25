@@ -50,7 +50,7 @@ checkoutBtn.addEventListener("click", async () => {
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   try {
-    const res = await fetch("http://localhost:5000/api/orders", {
+    const res = await fetch("https://my-projects-softdev.onrender.com/api/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

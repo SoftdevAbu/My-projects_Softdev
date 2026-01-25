@@ -17,7 +17,7 @@ async function loadProfile() {
     pointsDiv.innerHTML = "<h3>⭐ Loyalty Points: 0</h3>";
 
     // ================== LOAD ORDERS ==================
-    const res = await fetch("http://localhost:5000/api/orders", {
+    const res = await fetch("https://my-projects-softdev.onrender.com/api/orders", {
       headers: {
         Authorization: token
       }
