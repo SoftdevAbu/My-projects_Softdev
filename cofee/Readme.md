@@ -1,4 +1,6 @@
-##Here is the demo video, i'll deploy to vercel later
+##Here is the  vercel demo:
+
+https://my-projects-softdev-gwgv.vercel.app/
 
 
 
