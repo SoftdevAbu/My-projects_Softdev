@@ -21,7 +21,7 @@ Hi, I'm Abu, a computer programmer and full-stack web developer. I specialize in
 - Modern CSS (Flexbox, Grid)
 - UI/UX Fundamentals
 - Cross-Browser Compatibility
-- Accessibility Basics (a11y)
+- Accessibility Basics 
 
 ### Programming Languages
 - JavaScript
