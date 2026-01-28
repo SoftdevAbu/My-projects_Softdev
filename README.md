@@ -16,7 +16,7 @@ Hi, I'm Abu, a computer programmer and full-stack web developer. I specialize in
 - Version Control: Git & GitHub
 
 ### Frontend Development
-- React Components & Hooks (Basics)
+- React Components & Hooks
 - Responsive Web Design
 - Modern CSS (Flexbox, Grid)
 - UI/UX Fundamentals
